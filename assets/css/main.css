@@ -1290,20 +1290,20 @@ body.loaded {
 	filter: blur(150px);
 }
 .portfolio-box .portfolio-sizer {
-	width: 48%;
+	width: 22%;
 }
 .portfolio-box .portfolio-item {
 	background-color: var(--tj-theme-accent-2);
 	margin-bottom: 4%;
-	padding: 36px 36px 0 36px;
+	padding: 36px 0 36px 0 36px;
 	border-radius: 10px;
-	width: 48%;
+	width: 22%;
 }
 .portfolio-box .gutter-sizer {
 	width: 4%;
 }
 .portfolio-box .portfolio-item--width2 {
-	width: 22%;
+	width: 15%;
 }
 .portfolio-box .image-box {
 	text-align: center;
