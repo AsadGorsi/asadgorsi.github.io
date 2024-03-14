@@ -84,40 +84,46 @@
         // });
         //#endregion Portfolios
 
+        //#region Experiences
+        $.each(data.experiences, (i, exp) => {
+            $(".experiences").append(`
+                <div class="resume-item wow fadeInLeft" data-wow-delay=".4s">
+                    <div class="time">${exp.duration}</div>
+                        <h3 class="resume-title">${exp.profession}</h3>
+                    <div class="institute">${exp.company}</div>
+                </div>
+            `)
+        })
+        //#endregion Experiences
+
+        //#region Education
+        $.each(data.education, (i, edu) => {
+            $(".education").append(`
+                <div class="resume-item wow fadeInLeft" data-wow-delay=".4s">
+                    <div class="time">${edu.duration}</div>
+                        <h3 class="resume-title">${edu.degree}</h3>
+                    <div class="institute">${edu.institute}</div>
+                </div>
+            `)
+        })
+        //#endregion Education
+
+
         //#region Skills
         $.each(data.skills, (i, s) => {
-            $(`.dodo_progress`).append(`
-              <div class="progress_inner" data-value="${s.percentage}" data-color="${s.dataColor}">
-                  <span><span class="label">${s.name}</span><span class="number">${s.percentage}%</span></span>
-                  <div class="background"><div class="bar"><div class="bar_in"></div></div></div>
+            $(`.skills-widget`).append(`
+              <div class="skill-item wow fadeInUp" data-wow-delay=".3s">
+                <div class="skill-inner">
+                    <div class="icon-box">
+                        <img src="${s.imageUrl}" alt="${s.name}'s Icon">
+                    </div>
+                    <div class="number">${s.percentage}%</div>
+                </div>
+                <p>${s.name}</p>
               </div>
           `);
         });
         //#endregion Skills
-
-        //#region Services
-        $.each(data.services, (i, s) => {
-            $(`.service_list ul`).append(`
-            <li class="wow fadeInLeft" data-wow-duration="1s">
-                <div class="list_inner tilt-effect">
-                    <span class="icon">
-                        <img class="back" src="${s.imageBackgroundUrl
-                }" alt="" />
-                        <img class="svg" src="${s.imageUrl}" alt="" />
-                    </span>
-                <div class="title">
-                    <h3>${s.name}</h3>
-                    <!-- <span class="price">Starts from <span class="orangeText">$99</span></span> -->
-                </div>
-                <div class="text"><p>${s.description.replace(
-                    /\n/g,
-                    "<br>"
-                )}</p></div>
-                </div>
-            </li>
-          `);
-        });
-        //#endregion Services
 
         //#region Testimonials
         $.each(data.leftTestimonialsHoveringImages, (i, lt) => {
