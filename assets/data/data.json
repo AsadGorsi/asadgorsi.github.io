@@ -1,0 +1,481 @@
+{
+    "fullName": "Asad Khan",
+    "firstName": "Asad",
+    "lastName": "Khan",
+    "profession": "Graphics Designer",
+    "quote": "Satisfaction of Client Worth more than Money!",
+    "tagline": "I bring ideas to life through captivating visuals and immersive designs. Let's collaborate and make something extraordinary!",
+    "profileImageUrl": "assets/img/hero/me.png",
+    "about": "Hi There. I'm an expert graphic designer ready to bring your vision to life. From logos to websites, I offer professional and high-quality design services for all your needs. Trust me to elevate your brand and take it to the next level.",
+    "basicInfo": {
+        "mobile": "(+92)-333-8032733",
+        "email": "asadkhann@hotmail.com",
+        "shortAddress": "Lahore Pakistan",
+        "longAddress": "Phase 1, DHA, Lahore",
+        "languages": "English, Urdu, Punjabi"
+    },
+    "socialLinks": [
+        {
+            "icon": "fa-brands fa-linkedin-in",
+            "platformName": "LinkedIn",
+            "link": ""
+        },
+        {
+            "icon": "fa-brands fa-instagram",
+            "platformName": "Instagram",
+            "link": ""
+        },
+        {
+            "icon": "fa-brands fa-twitter",
+            "platformName": "Twitter",
+            "link": ""
+        },
+        {
+            "icon": "fa-brands fa-behance",
+            "platformName": "Behance",
+            "link": ""
+        }
+    ],
+    "funFactArea": [
+        {
+            "dataCount": "6",
+            "yearsOrExpOrState": "Years of",
+            "achievement": "Experience"
+        },
+        {
+            "dataCount": "250+",
+            "yearsOrExpOrState": "Projects",
+            "achievement": "Completed"
+        },
+        {
+            "dataCount": "152",
+            "yearsOrExpOrState": "Happy",
+            "achievement": "Clients"
+        }
+    ],
+    "process": [
+        {
+            "imageBackgroundUrl": "assets/img/brushes/process/dark/1.png",
+            "imageUrl": "assets/img/svg/process/target-2.svg",
+            "name": "Happy Clients",
+            "description": "When working with clients. Money is not my main objective. I strive to make all clients Happy. It's on fiverr or Local."
+        },
+        {
+            "imageBackgroundUrl": "assets/img/brushes/process/dark/2.png",
+            "imageUrl": "assets/img/svg/process/brush-2.svg",
+            "name": "Projects Completed",
+            "description": "I have completed more than 250+ Projects. Every single project have taught me something new."
+        },
+        {
+            "imageBackgroundUrl": "assets/img/brushes/process/dark/3.png",
+            "imageUrl": "assets/img/svg/process/energy-2.svg",
+            "name": "Years of Success",
+            "description": "It's been 6 Successful Years in Graphic Designing field."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Adobe Illustrator",
+            "percentage": "100",
+            "dataColor": "#f75023"
+        },
+        {
+            "name": "Adobe Photoshop",
+            "percentage": "100",
+            "dataColor": "#1cbe59"
+        },
+        {
+            "name": "Adobe InDesign",
+            "percentage": "100",
+            "dataColor": "#8067f0"
+        },
+        {
+            "name": "Corel Draw",
+            "percentage": "100",
+            "dataColor": "#80D39B"
+        },
+        {
+            "name": "Adobe After Effect",
+            "percentage": "90",
+            "dataColor": "#FFAF87"
+        },
+        {
+            "name": "Adobe Premiere Pro",
+            "percentage": "90",
+            "dataColor": "#CBEFB6"
+        },
+        {
+            "name": "Blender",
+            "percentage": "90",
+            "dataColor": "#E94F37"
+        }
+    ],
+    "portfolioHeadings": [
+        {
+            "class": "active",
+            "dataFilter": "logodesign",
+            "name": "Logo Design"
+        },
+        {
+            "class": " ",
+            "dataFilter": "printdesign",
+            "name": "Print Design"
+        },
+        {
+            "class": " ",
+            "dataFilter": "packaging",
+            "name": "Packaging"
+        },
+        {
+            "class": " ",
+            "dataFilter": "3dmodeling",
+            "name": "3D Products"
+        }
+    ],
+    "portfolios": [
+        {
+            "class": "logodesign",
+            "name": "Airship Muni Logo",
+            "dataMfpSrc": "airshipMuniLogo",
+            "imageUrl": "assets/img/portfolio/Logos/airship-Muni-Logo.jpg"
+        },
+        {
+            "class": "logodesign",
+            "name": "Bella Rocca",
+            "dataMfpSrc": "bellaRocca",
+            "imageUrl": "assets/img/portfolio/Logos/Bella-Rocca.jpg"
+        },
+        {
+            "class": "logodesign",
+            "name": "Caminhos Derosa Logo",
+            "dataMfpSrc": "caminhosDerosaLogo",
+            "imageUrl": "assets/img/portfolio/Logos/Caminhos-Derosa-logo.jpg"
+        },
+        {
+            "class": "logodesign",
+            "name": "Claudio Logo",
+            "dataMfpSrc": "claudioLogo",
+            "imageUrl": "assets/img/portfolio/Logos/Claudio-logo.jpg"
+        },
+        {
+            "class": "logodesign",
+            "name": "Dexter Lab Wash",
+            "dataMfpSrc": "dexterLabWash",
+            "imageUrl": "assets/img/portfolio/Logos/dexters-lab-wash.jpg"
+        },
+        {
+            "class": "logodesign",
+            "name": "Eco Energy",
+            "dataMfpSrc": "ecoEnergy",
+            "imageUrl": "assets/img/portfolio/Logos/eco-energy.jpg"
+        },
+        {
+            "class": "logodesign",
+            "name": "Henrique Riberio Logo",
+            "dataMfpSrc": "henriqueRiberioLogo",
+            "imageUrl": "assets/img/portfolio/Logos/Henrique-Riberio-Logo.jpg"
+        },
+        {
+            "class": "logodesign",
+            "name": "Madd Skillz Studio",
+            "dataMfpSrc": "maddSkillzStudio",
+            "imageUrl": "assets/img/portfolio/Logos/madd-skillz-studio.jpg"
+        },
+        {
+            "class": "logodesign",
+            "name": "Nora",
+            "dataMfpSrc": "nora",
+            "imageUrl": "assets/img/portfolio/Logos/Nora-Logo.jpg"
+        },
+        {
+            "class": "logodesign",
+            "name": "Ozmo",
+            "dataMfpSrc": "ozmo",
+            "imageUrl": "assets/img/portfolio/Logos/ozmo-logo.jpg"
+        },
+        {
+            "class": "logodesign",
+            "name": "Steven Denial Co.",
+            "dataMfpSrc": "stevenDenialCo",
+            "imageUrl": "assets/img/portfolio/Logos/stevendenial-Co.jpg"
+        },
+        {
+            "class": "logodesign",
+            "name": "Tail Jack",
+            "dataMfpSrc": "tailJack",
+            "imageUrl": "assets/img/portfolio/Logos/tail-jack.jpg"
+        },
+        {
+            "class": "printdesign",
+            "name": "Sports Bag",
+            "dataMfpSrc": "sportsBag",
+            "imageUrl": "assets/img/portfolio/Print Design/1.jpg"
+        },
+        {
+            "class": "printdesign",
+            "name": "WetSuit",
+            "dataMfpSrc": "wetSuit",
+            "imageUrl": "assets/img/portfolio/Print Design/2.jpg"
+        },
+        {
+            "class": "printdesign",
+            "name": "Sports Shirt",
+            "dataMfpSrc": "sportsShirt",
+            "imageUrl": "assets/img/portfolio/Print Design/3.jpg"
+        },
+        {
+            "class": "printdesign",
+            "name": "Shirt Design",
+            "dataMfpSrc": "shirtDesign1",
+            "imageUrl": "assets/img/portfolio/Print Design/4.jpg"
+        },
+        {
+            "class": "printdesign",
+            "name": "Shirt Design",
+            "dataMfpSrc": "shirtDesign2",
+            "imageUrl": "assets/img/portfolio/Print Design/5.jpg"
+        },
+        {
+            "class": "printdesign",
+            "name": "Shirt Design",
+            "dataMfpSrc": "shirtDesign3",
+            "imageUrl": "assets/img/portfolio/Print Design/6.jpg"
+        },
+        {
+            "class": "printdesign",
+            "name": "Shirt Design",
+            "dataMfpSrc": "shirtDesign7",
+            "imageUrl": "assets/img/portfolio/Print Design/7.jpg"
+        },
+        {
+            "class": "printdesign",
+            "name": "Cap Design",
+            "dataMfpSrc": "capDesign",
+            "imageUrl": "assets/img/portfolio/Print Design/8.jpg"
+        },
+        {
+            "class": "packaging",
+            "name": "Tuck end Box",
+            "dataMfpSrc": "tuckEndBox",
+            "imageUrl": "assets/img/portfolio/Packaging/1.jpg"
+        },
+        {
+            "class": "packaging",
+            "name": "Tuck end Box",
+            "dataMfpSrc": "tuckEndBox",
+            "imageUrl": "assets/img/portfolio/Packaging/2.jpg"
+        },
+        {
+            "class": "packaging",
+            "name": "Pouch",
+            "dataMfpSrc": "pouch",
+            "imageUrl": "assets/img/portfolio/Packaging/3.jpg"
+        },
+        {
+            "class": "packaging",
+            "name": "Can",
+            "dataMfpSrc": "can",
+            "imageUrl": "assets/img/portfolio/Packaging/4.jpg"
+        },
+        {
+            "class": "packaging",
+            "name": "Tuck end Box",
+            "dataMfpSrc": "tuckEndBox",
+            "imageUrl": "assets/img/portfolio/Packaging/5.jpg"
+        },
+        {
+            "class": "packaging",
+            "name": "Label Design",
+            "dataMfpSrc": "labelDesign",
+            "imageUrl": "assets/img/portfolio/Packaging/6.jpg"
+        },
+        {
+            "class": "packaging",
+            "name": "Pouch Design",
+            "dataMfpSrc": "pouchDesign",
+            "imageUrl": "assets/img/portfolio/Packaging/7.jpg"
+        },
+        {
+            "class": "3dmodeling",
+            "name": "Booth Design",
+            "dataMfpSrc": "boothDesign",
+            "imageUrl": "assets/img/portfolio/3D products/1.jpg"
+        },
+        {
+            "class": "3dmodeling",
+            "name": "Booth Design",
+            "dataMfpSrc": "boothDesign",
+            "imageUrl": "assets/img/portfolio/3D products/2.jpg"
+        },
+        {
+            "class": "3dmodeling",
+            "name": "Wine Bottle",
+            "dataMfpSrc": "wineBottle",
+            "imageUrl": "assets/img/portfolio/3D products/3.jpg"
+        },
+        {
+            "class": "3dmodeling",
+            "name": "Cosmetic Bottles",
+            "dataMfpSrc": "cosmeticBottles",
+            "imageUrl": "assets/img/portfolio/3D products/4.jpg"
+        }
+    ],
+    "experiences": [
+        {
+            "company": "Freelancing",
+            "profession": "Full Stack Developer",
+            "duration": "March 2020 - Present",
+            "companyLogo": "images/placeholder-400x400.gif",
+            "description": "Working as a freelancer in Asp.net, Angular, Angular Dart, and WordPress. Till now, I have worked on some of the projects listed below: \n\n &#x2022; My Life You Choose (Asp.Net MVC) \n &#x2022; AM-Brisbane-Psychology (Asp.Net Razor Pages) \n &#x2022; Ease My Sales (Angular) \n &#x2022; Pagric Web Application (Angular) \n &#x2022; Tipnet (Angular) \n &#x2022; Tamino Autograph (WordPress) \n &#x2022; Roofers Free Zone Co (WordPress)"
+        },
+        {
+            "company": "Perspective-v",
+            "profession": "Full Stack Developer",
+            "duration": "August 2021 - December 2022",
+            "companyLogo": "images/placeholder-400x400.gif",
+            "description": "I am a seasonal web developer in Asp.Net, and Angular for close to two years. I have experience in building both front-end and back-end web applications using these technologies. During my time at perspective-v, I gained hands-on experience with Ag-Grid, Nx-Workspaces, Angular DataTables, Syncfusion, and more. I have worked on variety of projects, Including: \n\n &#x2022; Learn Quran Live Academy (Asp.Net 6)\n &#x2022; Flat Management System (Angular)\n &#x2022; Gorsi Shop (Asp.Net Core 3.1)\n &#x2022; Client Management Website (Angular + Asp.Net)"
+        },
+        {
+            "company": "Gorsi Shop",
+            "profession": "Full Stack Developer",
+            "duration": "Mar 2019 - Jan 2020",
+            "companyLogo": "images/placeholder-400x400.gif",
+            "description": "In my time at Gorsi Shop, I have created their E-Commerce website in Wordpress as well as in Asp.Net Core MVC, named Gorsi Shop. Once in Asp.net Core and the second iteration in WordPress. \n Gorsi Shop is an e-commerce website that allows whole sellers to buy any IT related items such as keyboards, mouse, printers, projectors etc. And a complete admin panel is implemented for the admins of the site to manage products, orders and view reviews on different projects. \n\n Tools: \n1st Iteration: \n&#x2022; Front-end: Html, Css, jQuery \n&#x2022; Back-end: Asp.Net Core 2.0, Entity Framework Core \n\n 2nd Iteration: \n&#x2022; WordPress"
+        }
+    ],
+    "services": [
+        {
+            "current": "current",
+            "name": "Branding Design",
+            "description": "Elevating brands with meticulously crafted identities that resonate deeply with their audience, leaving a lasting impression and fostering long-term connections."
+        },
+        {
+            "current": "",
+            "name": "3D Product Design",
+            "description": "Bringing products to life in three-dimensional space, our design expertise ensures visually stunning and functionally superior solutions that captivate audiences and elevate brands."
+        },
+        {
+            "current": "",
+            "name": "UI/UX Design",
+            "description": "Transforming digital experiences with intuitive UI and UX designs that seamlessly blend functionality with aesthetics, ensuring engaging interactions that delight users and drive business success."
+        },
+        {
+            "current": "",
+            "name": "Packaging Design",
+            "description": "Harnessing the power of visual storytelling, our graphic design services breathe life into concepts, creating eye-catching visuals that captivate audiences and elevate brands to new heights of recognition and engagement."
+        }
+    ],
+    "leftTestimonialsHoveringImages": [
+        {
+            "colorOrShape": "green",
+            "class": "one",
+            "imageUrl": "assets/img/testimonials/2.jpg"
+        },
+        {
+            "colorOrShape": "yellow",
+            "class": "two",
+            "imageUrl": "assets/img/testimonials/1.jpg"
+        },
+        {
+            "colorOrShape": "border",
+            "class": "three",
+            "imageUrl": "assets/img/testimonials/12.jpg"
+        },
+        {
+            "colorOrShape": "",
+            "class": "four",
+            "imageUrl": "assets/img/testimonials/4.jpg"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "rotimilademo",
+            "imageUrl": "assets/img/testimonials/1.jpg",
+            "from": "Fiverr",
+            "review": "I recently had the pleasure of working with this incredible designer on Fiverr. They were not only exceptionally talented, but also incredibly responsive throughout the entire process. Their attention to detail and ability to understand my vision exceeded my expectations. I highly recommend their services to anyone seeking a top-notch designer."
+        },
+        {
+            "name": "pastorjoseph",
+            "imageUrl": "assets/img/testimonials/2.jpg",
+            "from": "Fiverr",
+            "review": "Wow! Wow! Wow! I am so glad that I found casadkhan. What a top-notch designer and person to work with. He was fast, responsive, and patient with me as we went through several revisions. I could trust him to read my artistic direction and make something beautiful. The original project was 4 pages and the final project ended up to be 7 pages. But the final product was amazing!"
+        },
+        {
+            "name": "emchatman92",
+            "imageUrl": "assets/img/testimonials/4.jpg",
+            "from": "Fiverr",
+            "review": "Great quick responsive service !"
+        },
+        {
+            "name": "ginojoubert",
+            "imageUrl": "assets/img/testimonials/5.jpg",
+            "from": "Fiverr",
+            "review": "good work and did what I asked"
+        },
+        {
+            "name": "calsimmons82",
+            "imageUrl": "assets/img/testimonials/3.jpg",
+            "from": "Fiverr",
+            "review": "Awesome seller! Great work. I highly recommend 🙌🏾"
+        },
+        {
+            "name": "clarensjoseph13",
+            "imageUrl": "assets/img/testimonials/7.jpg",
+            "from": "Fiverr",
+            "review": "Fast delivery, pristine work. I enjoyed working with this dude. I highly recommend if your looking for fast turnaround"
+        },
+        {
+            "name": "keangelomaybury",
+            "imageUrl": "assets/img/testimonials/3.jpg",
+            "from": "Fiverr",
+            "review": "Loved the template design, documentation, customizability and the customer support from Marketify team! I am a noob in programming with very little knowledge about coding but the Marketify team helped me to launch my resume website successfully. Much recommended!"
+        },
+        {
+            "name": "scaryspikes",
+            "imageUrl": "assets/img/testimonials/8.jpg",
+            "from": "Fiverr",
+            "review": "It was quite easy working with this seller. I think at first we had a couple misunderstandings, but after communicating a little, the seller was quite good at responding to the changes I needed to have made, and they did a great job working very quickly with a demanding client. Much appreciate the help and would definitely recommend to others."
+        },
+        {
+            "name": "coleenrenee",
+            "imageUrl": "assets/img/testimonials/9.jpg",
+            "from": "Fiverr",
+            "review": "Thank you, after a few corrections it came out beautifully"
+        },
+        {
+            "name": "davidantonius",
+            "imageUrl": "assets/img/testimonials/10.jpg",
+            "from": "Fiverr",
+            "review": "Excellent communication and excellent work"
+        },
+        {
+            "name": "moderndisciple",
+            "imageUrl": "assets/img/testimonials/11.jpg",
+            "from": "Fiverr",
+            "review": "The work was done quickly and the seller communicated well."
+        },
+        {
+            "name": "bws1214",
+            "imageUrl": "assets/img/testimonials/12.jpg",
+            "from": "Fiverr",
+            "review": "So great to work with!! Will definitely hire again!! Top quality!!"
+        }
+    ],
+    "rightTestimonialsHoveringImages": [
+        {
+            "colorOrShape": "yellow",
+            "class": "one",
+            "imageUrl": "assets/img/testimonials/5.jpg"
+        },
+        {
+            "colorOrShape": "purple",
+            "class": "two",
+            "imageUrl": "assets/img/testimonials/6.jpg"
+        },
+        {
+            "colorOrShape": "border",
+            "class": "three",
+            "imageUrl": "assets/img/testimonials/7.jpg"
+        }
+    ]
+}
