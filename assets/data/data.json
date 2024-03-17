@@ -119,206 +119,210 @@
     "portfolioHeadings": [
         {
             "name": "Logo Design",
-            "dataFilter": "logodesign"
+            "dataFilter": "logodesign",
+            "class":"active"
         },
         {
             "name": "Print Design",
-            "dataFilter": "printdesign"
+            "dataFilter": "printdesign",
+            "class":""
         },
         {
             "name": "Packaging",
-            "dataFilter": "packaging"
+            "dataFilter": "packaging",
+            "class":""
         },
         {
             "name": "3D Products",
-            "dataFilter": "3dmodeling"
+            "dataFilter": "3dmodeling",
+            "class":""
         }
     ],
     "portfolios": [
         {
             "class": "logodesign",
             "name": "Airship Muni Logo",
-            "dataMfpSrc": "airshipMuniLogo",
+            "dataMfpSrc": "AirshipMuniLogo",
             "imageUrl": "assets/img/portfolio/Logos/airship-Muni-Logo.jpg"
         },
         {
             "class": "logodesign",
             "name": "Bella Rocca",
-            "dataMfpSrc": "bellaRocca",
+            "dataMfpSrc": "BellaRocca",
             "imageUrl": "assets/img/portfolio/Logos/Bella-Rocca.jpg"
         },
         {
             "class": "logodesign",
             "name": "Caminhos Derosa Logo",
-            "dataMfpSrc": "caminhosDerosaLogo",
+            "dataMfpSrc": "CaminhosDerosaLogo",
             "imageUrl": "assets/img/portfolio/Logos/Caminhos-Derosa-logo.jpg"
         },
         {
             "class": "logodesign",
             "name": "Claudio Logo",
-            "dataMfpSrc": "claudioLogo",
+            "dataMfpSrc": "ClaudioLogo",
             "imageUrl": "assets/img/portfolio/Logos/Claudio-logo.jpg"
         },
         {
             "class": "logodesign",
             "name": "Dexter Lab Wash",
-            "dataMfpSrc": "dexterLabWash",
+            "dataMfpSrc": "DexterLabWash",
             "imageUrl": "assets/img/portfolio/Logos/dexters-lab-wash.jpg"
         },
         {
             "class": "logodesign",
             "name": "Eco Energy",
-            "dataMfpSrc": "ecoEnergy",
+            "dataMfpSrc": "EcoEnergy",
             "imageUrl": "assets/img/portfolio/Logos/eco-energy.jpg"
         },
         {
             "class": "logodesign",
             "name": "Henrique Riberio Logo",
-            "dataMfpSrc": "henriqueRiberioLogo",
+            "dataMfpSrc": "HenriqueRiberioLogo",
             "imageUrl": "assets/img/portfolio/Logos/Henrique-Riberio-Logo.jpg"
         },
         {
             "class": "logodesign",
             "name": "Madd Skillz Studio",
-            "dataMfpSrc": "maddSkillzStudio",
+            "dataMfpSrc": "MaddSkillzStudio",
             "imageUrl": "assets/img/portfolio/Logos/madd-skillz-studio.jpg"
         },
         {
             "class": "logodesign",
             "name": "Nora",
-            "dataMfpSrc": "nora",
+            "dataMfpSrc": "Nora",
             "imageUrl": "assets/img/portfolio/Logos/Nora-Logo.jpg"
         },
         {
             "class": "logodesign",
             "name": "Ozmo",
-            "dataMfpSrc": "ozmo",
+            "dataMfpSrc": "Ozmo",
             "imageUrl": "assets/img/portfolio/Logos/ozmo-logo.jpg"
         },
         {
             "class": "logodesign",
             "name": "Steven Denial Co.",
-            "dataMfpSrc": "stevenDenialCo",
+            "dataMfpSrc": "StevenDenialCo",
             "imageUrl": "assets/img/portfolio/Logos/stevendenial-Co.jpg"
         },
         {
             "class": "logodesign",
             "name": "Tail Jack",
-            "dataMfpSrc": "tailJack",
+            "dataMfpSrc": "TailJack",
             "imageUrl": "assets/img/portfolio/Logos/tail-jack.jpg"
         },
         {
             "class": "printdesign",
             "name": "Sports Bag",
-            "dataMfpSrc": "sportsBag",
+            "dataMfpSrc": "SportsBag",
             "imageUrl": "assets/img/portfolio/Print Design/1.jpg"
         },
         {
             "class": "printdesign",
             "name": "WetSuit",
-            "dataMfpSrc": "wetSuit",
+            "dataMfpSrc": "WetSuit",
             "imageUrl": "assets/img/portfolio/Print Design/2.jpg"
         },
         {
             "class": "printdesign",
             "name": "Sports Shirt",
-            "dataMfpSrc": "sportsShirt",
+            "dataMfpSrc": "SportsShirt",
             "imageUrl": "assets/img/portfolio/Print Design/3.jpg"
         },
         {
             "class": "printdesign",
             "name": "Shirt Design",
-            "dataMfpSrc": "shirtDesign1",
+            "dataMfpSrc": "ShirtDesign1",
             "imageUrl": "assets/img/portfolio/Print Design/4.jpg"
         },
         {
             "class": "printdesign",
             "name": "Shirt Design",
-            "dataMfpSrc": "shirtDesign2",
+            "dataMfpSrc": "ShirtDesign2",
             "imageUrl": "assets/img/portfolio/Print Design/5.jpg"
         },
         {
             "class": "printdesign",
             "name": "Shirt Design",
-            "dataMfpSrc": "shirtDesign3",
+            "dataMfpSrc": "ShirtDesign3",
             "imageUrl": "assets/img/portfolio/Print Design/6.jpg"
         },
         {
             "class": "printdesign",
             "name": "Shirt Design",
-            "dataMfpSrc": "shirtDesign7",
+            "dataMfpSrc": "ShirtDesign4",
             "imageUrl": "assets/img/portfolio/Print Design/7.jpg"
         },
         {
             "class": "printdesign",
             "name": "Cap Design",
-            "dataMfpSrc": "capDesign",
+            "dataMfpSrc": "CapDesign",
             "imageUrl": "assets/img/portfolio/Print Design/8.jpg"
         },
         {
             "class": "packaging",
             "name": "Tuck end Box",
-            "dataMfpSrc": "tuckEndBox",
+            "dataMfpSrc": "TuckEndBox",
             "imageUrl": "assets/img/portfolio/Packaging/1.jpg"
         },
         {
             "class": "packaging",
             "name": "Tuck end Box",
-            "dataMfpSrc": "tuckEndBox",
+            "dataMfpSrc": "TuckEndBox1",
             "imageUrl": "assets/img/portfolio/Packaging/2.jpg"
         },
         {
             "class": "packaging",
             "name": "Pouch",
-            "dataMfpSrc": "pouch",
+            "dataMfpSrc": "Pouch",
             "imageUrl": "assets/img/portfolio/Packaging/3.jpg"
         },
         {
             "class": "packaging",
             "name": "Can",
-            "dataMfpSrc": "can",
+            "dataMfpSrc": "Can",
             "imageUrl": "assets/img/portfolio/Packaging/4.jpg"
         },
         {
             "class": "packaging",
             "name": "Tuck end Box",
-            "dataMfpSrc": "tuckEndBox",
+            "dataMfpSrc": "TuckEndBox2",
             "imageUrl": "assets/img/portfolio/Packaging/5.jpg"
         },
         {
             "class": "packaging",
             "name": "Label Design",
-            "dataMfpSrc": "labelDesign",
+            "dataMfpSrc": "LabelDesign",
             "imageUrl": "assets/img/portfolio/Packaging/6.jpg"
         },
         {
             "class": "packaging",
             "name": "Pouch Design",
-            "dataMfpSrc": "pouchDesign",
+            "dataMfpSrc": "PouchDesign",
             "imageUrl": "assets/img/portfolio/Packaging/7.jpg"
         },
         {
             "class": "3dmodeling",
             "name": "Booth Design",
-            "dataMfpSrc": "boothDesign",
+            "dataMfpSrc": "BoothDesign",
             "imageUrl": "assets/img/portfolio/3D products/1.jpg"
         },
         {
             "class": "3dmodeling",
             "name": "Booth Design",
-            "dataMfpSrc": "boothDesign",
+            "dataMfpSrc": "BoothDesign1",
             "imageUrl": "assets/img/portfolio/3D products/2.jpg"
         },
         {
             "class": "3dmodeling",
             "name": "Wine Bottle",
-            "dataMfpSrc": "wineBottle",
+            "dataMfpSrc": "WineBottle",
             "imageUrl": "assets/img/portfolio/3D products/3.jpg"
         },
         {
             "class": "3dmodeling",
             "name": "Cosmetic Bottles",
-            "dataMfpSrc": "cosmeticBottles",
+            "dataMfpSrc": "CosmeticBottles",
             "imageUrl": "assets/img/portfolio/3D products/4.jpg"
         }
     ],
