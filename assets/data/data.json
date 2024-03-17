@@ -20,21 +20,6 @@
             "icon": "fa-brands fa-linkedin-in",
             "platformName": "LinkedIn",
             "link": ""
-        },
-        {
-            "icon": "fa-brands fa-instagram",
-            "platformName": "Instagram",
-            "link": ""
-        },
-        {
-            "icon": "fa-brands fa-twitter",
-            "platformName": "Twitter",
-            "link": ""
-        },
-        {
-            "icon": "fa-brands fa-behance",
-            "platformName": "Behance",
-            "link": ""
         }
     ],
     "funFactArea": [

@@ -16,7 +16,7 @@
             </div>
             <p class="lead wow fadeInLeft" data-wow-delay="1.4s">${data.tagline}</p>
             <div class="button-box d-flex flex-wrap align-items-center">
-                <a href="assets/img/CV.pdf" class="btn tj-btn-secondary wow fadeInLeft" data-wow-delay="1.5s">Download CV</a>
+                <a href="assets/img/CV.pdf" target="_blank" class="btn tj-btn-secondary wow fadeInLeft" data-wow-delay="1.5s">Download CV</a>
             </div>
         `);
 
@@ -29,6 +29,22 @@
                 </ul>
             `)
         })
+
+        // ,{
+        //     "icon": "fa-brands fa-instagram",
+        //     "platformName": "Instagram",
+        //     "link": ""
+        // },
+        // {
+        //     "icon": "fa-brands fa-twitter",
+        //     "platformName": "Twitter",
+        //     "link": ""
+        // },
+        // {
+        //     "icon": "fa-brands fa-behance",
+        //     "platformName": "Behance",
+        //     "link": ""
+        // }
 
         $.each(data.funFactArea, (i, ffa) => {
             $(".funfact-area .row").append(`
