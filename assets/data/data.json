@@ -12,7 +12,8 @@
         "email": "asadkhann@hotmail.com",
         "shortAddress": "Lahore Pakistan",
         "longAddress": "Phase 1, DHA, Lahore",
-        "languages": "English, Urdu, Punjabi"
+        "languages": "English, Urdu, Punjabi",
+        "copyrightOwner":"Gorsi Design Studio"
     },
     "socialLinks": [
         {
@@ -117,24 +118,20 @@
     ],
     "portfolioHeadings": [
         {
-            "class": "active",
-            "dataFilter": "logodesign",
-            "name": "Logo Design"
+            "name": "Logo Design",
+            "dataFilter": "logodesign"
         },
         {
-            "class": " ",
-            "dataFilter": "printdesign",
-            "name": "Print Design"
+            "name": "Print Design",
+            "dataFilter": "printdesign"
         },
         {
-            "class": " ",
-            "dataFilter": "packaging",
-            "name": "Packaging"
+            "name": "Packaging",
+            "dataFilter": "packaging"
         },
         {
-            "class": " ",
-            "dataFilter": "3dmodeling",
-            "name": "3D Products"
+            "name": "3D Products",
+            "dataFilter": "3dmodeling"
         }
     ],
     "portfolios": [
@@ -391,117 +388,91 @@
             "description": "Harnessing the power of visual storytelling, our graphic design services breathe life into concepts, creating eye-catching visuals that captivate audiences and elevate brands to new heights of recognition and engagement."
         }
     ],
-    "leftTestimonialsHoveringImages": [
-        {
-            "colorOrShape": "green",
-            "class": "one",
-            "imageUrl": "assets/img/testimonials/2.jpg"
-        },
-        {
-            "colorOrShape": "yellow",
-            "class": "two",
-            "imageUrl": "assets/img/testimonials/1.jpg"
-        },
-        {
-            "colorOrShape": "border",
-            "class": "three",
-            "imageUrl": "assets/img/testimonials/12.jpg"
-        },
-        {
-            "colorOrShape": "",
-            "class": "four",
-            "imageUrl": "assets/img/testimonials/4.jpg"
-        }
-    ],
     "testimonials": [
         {
-            "name": "rotimilademo",
-            "imageUrl": "assets/img/testimonials/1.jpg",
-            "from": "Fiverr",
-            "review": "I recently had the pleasure of working with this incredible designer on Fiverr. They were not only exceptionally talented, but also incredibly responsive throughout the entire process. Their attention to detail and ability to understand my vision exceeded my expectations. I highly recommend their services to anyone seeking a top-notch designer."
+            "name": "nopedonotwant",
+            "imageUrl": "",
+            "productImageUrl":"",
+            "place": "United State",
+            "review": "I am very happy with my delivery. Quick and to my specifications. 10/10 "
         },
         {
-            "name": "pastorjoseph",
-            "imageUrl": "assets/img/testimonials/2.jpg",
-            "from": "Fiverr",
-            "review": "Wow! Wow! Wow! I am so glad that I found casadkhan. What a top-notch designer and person to work with. He was fast, responsive, and patient with me as we went through several revisions. I could trust him to read my artistic direction and make something beautiful. The original project was 4 pages and the final project ended up to be 7 pages. But the final product was amazing!"
+            "name": "Belinda Hamilton",
+            "imageUrl": "",
+            "productImageUrl":"",
+            "place": "Australia",
+            "review": "Asad was fast, efficient and understood the brief. Had great suggestions and adhered to the very timeline. 10/10 "
         },
         {
-            "name": "emchatman92",
-            "imageUrl": "assets/img/testimonials/4.jpg",
-            "from": "Fiverr",
-            "review": "Great quick responsive service !"
+            "name": "Space Niche",
+            "imageUrl": "",
+            "productImageUrl":"",
+            "place": "United State",
+            "review": "Great work, easy communication, good to work with. 10/10 "
         },
         {
-            "name": "ginojoubert",
-            "imageUrl": "assets/img/testimonials/5.jpg",
-            "from": "Fiverr",
-            "review": "good work and did what I asked"
+            "name": "James",
+            "imageUrl": "",
+            "productImageUrl":"",
+            "place": "Behrain",
+            "review": "Asad's designs are nothing short of spectacular. He brings concepts to life with finesse and flair. A pleasure to collaborate with! 10/10 "
         },
         {
-            "name": "calsimmons82",
-            "imageUrl": "assets/img/testimonials/3.jpg",
-            "from": "Fiverr",
-            "review": "Awesome seller! Great work. I highly recommend 🙌🏾"
+            "name": "Philippa Pires",
+            "imageUrl": "",
+            "productImageUrl":"",
+            "place": "United Kingdom",
+            "review": "Working with Asad was a breeze. His attention to detail and ability to capture our brand essence in his designs were impressive. Thank you, Asad! 10/10 "
         },
         {
-            "name": "clarensjoseph13",
-            "imageUrl": "assets/img/testimonials/7.jpg",
-            "from": "Fiverr",
-            "review": "Fast delivery, pristine work. I enjoyed working with this dude. I highly recommend if your looking for fast turnaround"
+            "name": "nopedonotwant",
+            "imageUrl": "",
+            "productImageUrl":"",
+            "place": "United State",
+            "review": "I am very happy with my delivery. Quick and to my specifications. 10/10 "
         },
         {
-            "name": "keangelomaybury",
-            "imageUrl": "assets/img/testimonials/3.jpg",
-            "from": "Fiverr",
-            "review": "Loved the template design, documentation, customizability and the customer support from Marketify team! I am a noob in programming with very little knowledge about coding but the Marketify team helped me to launch my resume website successfully. Much recommended!"
+            "name": "Yao Yao",
+            "imageUrl": "",
+            "productImageUrl":"",
+            "place": "United State",
+            "review": "If you're looking for a graphic designer who delivers quality results every time, Asad is your guy. Consistent excellence and great communication! 10/10 "
         },
         {
-            "name": "scaryspikes",
-            "imageUrl": "assets/img/testimonials/8.jpg",
-            "from": "Fiverr",
-            "review": "It was quite easy working with this seller. I think at first we had a couple misunderstandings, but after communicating a little, the seller was quite good at responding to the changes I needed to have made, and they did a great job working very quickly with a demanding client. Much appreciate the help and would definitely recommend to others."
+            "name": "Josh Sperber",
+            "imageUrl": "",
+            "productImageUrl":"",
+            "place": "United Kingdom",
+            "review": "Asad is a true gem in the world of graphic design. His work speaks volumes about his talent and dedication. Five stars! 10/10"
         },
         {
-            "name": "coleenrenee",
-            "imageUrl": "assets/img/testimonials/9.jpg",
-            "from": "Fiverr",
-            "review": "Thank you, after a few corrections it came out beautifully"
-        },
-        {
-            "name": "davidantonius",
-            "imageUrl": "assets/img/testimonials/10.jpg",
-            "from": "Fiverr",
-            "review": "Excellent communication and excellent work"
-        },
-        {
-            "name": "moderndisciple",
-            "imageUrl": "assets/img/testimonials/11.jpg",
-            "from": "Fiverr",
-            "review": "The work was done quickly and the seller communicated well."
-        },
-        {
-            "name": "bws1214",
-            "imageUrl": "assets/img/testimonials/12.jpg",
-            "from": "Fiverr",
-            "review": "So great to work with!! Will definitely hire again!! Top quality!!"
+            "name": "Hanna Axel",
+            "imageUrl": "",
+            "productImageUrl":"",
+            "place": "United State",
+            "review": "Outstanding work from Asad! His graphic design skills are unmatched. From start to finish, Asad ensured our project in Spain was a success. Highly recommend! 10/10 "
         }
     ],
-    "rightTestimonialsHoveringImages": [
+    "navigationLinks":[
         {
-            "colorOrShape": "yellow",
-            "class": "one",
-            "imageUrl": "assets/img/testimonials/5.jpg"
+            "name":"Services",
+            "section":"services-section"
         },
         {
-            "colorOrShape": "purple",
-            "class": "two",
-            "imageUrl": "assets/img/testimonials/6.jpg"
+            "name":"Works",
+            "section":"works-section"
         },
         {
-            "colorOrShape": "border",
-            "class": "three",
-            "imageUrl": "assets/img/testimonials/7.jpg"
+            "name":"Resume",
+            "section":"resume-section"
+        },
+        {
+            "name":"Skills",
+            "section":"skills-section"
+        },
+        {
+            "name":"Testimonials",
+            "section":"testimonials-section"
         }
     ]
 }

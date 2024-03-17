@@ -1,15 +1,14 @@
 (async () => {
     $.getJSON("./assets/data/data.json", (data) => {
 
-        $(".intro_text").append(`
-            <svg viewBox="0 0 1320 300">
-                <text x="50%" Y="50%" text-anchor="middle">
-                    HI
-                </text>
-            </svg>
-        `)
 
         //#region Hero
+        $(".intro_text").append(`
+            <svg viewBox="0 0 1320 300">
+                <text x="50%" Y="50%" text-anchor="middle"> HI </text>
+            </svg>
+        `);
+
         $(".hero-content-box").append(`
             <span class="hero-sub-title wow fadeInLeft" data-wow-delay="1.1s">I am ${data.fullName}</span>
             <h1 class="hero-title wow fadeInLeft" data-wow-delay="1.2s">${data.profession} +<br>3D Designer</h1>
@@ -63,25 +62,32 @@
         //#endregion Service
 
         //#region Portfolios
-        // $.each(data.portfolioHeadings, (i, ph) => {
-        //     $(`.filter-button-group`).append(`<button data-filter="${ph.dataFilter}" class="${ph.class}">${ph.name}</button>`);
-        // });
+        $.each(data.portfolioHeadings, (i, ph) => {
+            $(`.filter-button-group`).append(`<button data-filter=".${ph.dataFilter}" class="${ph.class}">${ph.name}</button>`);
+        });
 
-        // $.each(data.portfolios, (i, p) => {
-        //     $(`.portfolio-box .row`).append(`
-        //         <div class="col-3 portfolio-item logodesign">
-        //             <div class="image-box">
-        //                 <img src="${p.imageUrl}" alt="${p.name} portfolio image">
-        //             </div>
-        //             <div class="content-box">
-        //                 <h3 class="portfolio-title">${p.name}</h3>
-        //                 <!-- <p>Cosmetic company logo design</p> -->
-        //                 <i class="flaticon-up-right-arrow"></i>
-        //                 <button data-mfp-src="#${p.dataMfpSrc}" class="portfolio-link modal-popup"></button>
-        //             </div>
-        //         </div>
-        //     `);
-        // });
+        $.each(data.portfolios, (i, p) => {
+            $(`.portfolio-box-content`).append(`
+                <div class="col-3 portfolio-item ${p.class}">
+                    <div class="image-box">
+                        <img src="${p.imageUrl}" alt="${p.name} Portfolio Image">
+                    </div>
+                    <div class="content-box">
+                        <h3 class="portfolio-title">${p.name}</h3>
+                        <!-- <p>Cosmetic company logo design</p> -->
+                        <i class="flaticon-up-right-arrow"></i>
+                        <button data-mfp-src="#${p.dataMfpSrc}" class="portfolio-link modal-popup"></button>
+                    </div>
+                </div>
+            `);
+
+            $(".portfolio-modal").append(`
+                <div id="${p.dataMfpSrc}" class="popup_content_area zoom-anim-dialog mfp-hide">
+                    <div class="popup_modal_img"><img src="${p.imageUrl}" alt="${p.name} Portfolio Image" class="img-thumbnail rounded mx-auto d-block portfolio-image-on-modal"></div>
+                </div>
+            `)
+        });
+
         //#endregion Portfolios
 
         //#region Experiences
@@ -108,7 +114,6 @@
         })
         //#endregion Education
 
-
         //#region Skills
         $.each(data.skills, (i, s) => {
             $(`.skills-widget`).append(`
@@ -126,79 +131,64 @@
         //#endregion Skills
 
         //#region Testimonials
-        $.each(data.leftTestimonialsHoveringImages, (i, lt) => {
-            $(".left_details").append(`
-              <div class="det_image ${lt.class} wow fadeIn" data-wow-duration="1s" data-img-url="${lt.imageUrl}"></div>
-              <span class="circle ${lt.colorOrShape} animPulse"></span>
-          `);
-        });
-
         $.each(data.testimonials, (i, t) => {
-            $(".testimonials").append(`
-              <li>
-                  <div class="icon">
-                      <img class="svg" src="./assets/img/svg/testimonials/quote.svg" alt="" />
-                  </div>
-                  <div class="text">
-                      <p>${t.review}</p>
-                  </div>
-                  <div class="short">
-                      <div class="image">
-                          <div class="main" data-img-url="${t.imageUrl}"></div>
-                      </div>
-                      <div class="detail">
-                          <h3>${t.name}</h3>
-                          <span>${t.from}</span>
-                      </div>
-                  </div>
-              </li>
-          `);
-        });
+            $(".owl-carousel.testimonial-carousel").append(`
+            <div class="testimonial-item">
+            <div class="top-area d-flex flex-wrap justify-content-between">
+                <div class="logo-box">
+                    <!-- <img src="${t.productImageUrl}" alt=""> -->
+                </div>
+                <!-- <div class="image-box">
+                    <img src="${t.imageUrl}" alt="">
+                </div> -->
+            </div>
+            <div class="icon-box">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                        fill="url(#paint0_linear_263_588)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_263_588" x1="-0.0363755"
+                            y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="1" stop-color="var(--tj-theme-primary)" />
+                            <stop offset="1" stop-color="#140C1C" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                        fill="url(#paint0_linear_263_589)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_263_589" x1="-0.0363755"
+                            y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="1" stop-color="var(--tj-theme-primary)" />
+                            <stop offset="1" stop-color="#140C1C" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <p class="quote">${t.review}</p>
+            <h4 class="name">${t.name}</h4>
+            <span class="designation">${t.place}</span>
+        </div>
 
-        $.each(data.rightTestimonialsHoveringImages, (i, rt) => {
-            $(".right_details").append(`
-              <div class="det_image ${rt.class} wow fadeIn" data-wow-duration="1s" data-img-url="${rt.imageUrl}"></div>
-              <span class="circle ${rt.colorOrShape} animPulse"></span>
           `);
         });
         //#endregion Testimonials
 
-        //#region Contact
-        $(".contact_inner .left ul").append(`
-          <li>
-              <div class="list_inner">
-                  <div class="icon orangeBackground">
-                      <i class="icon-location orangeText"></i>
-                  </div>
-                  <div class="short">
-                      <h3>Address</h3>
-                      <span>${data.basicInfo.longAddress}</span>
-                  </div>
-              </div>
-          </li>
-          <li>
-              <div class="list_inner">
-                  <div class="icon greenBackground">
-                      <i class="icon-mail-1 greenText"></i>
-                  </div>
-                  <div class="short">
-                      <h3>Email</h3>
-                      <span><a href="mailto:${data.basicInfo.email}">${data.basicInfo.email}</a></span>
-                  </div>
-              </div>
-          </li>
-          <li>
-              <div class="list_inner">
-                  <div class="icon purpleBackground">
-                      <i class="icon-phone purpleText"></i>
-                  </div>
-                  <div class="short">
-                      <h3>Phone</h3>
-                      <span>${data.basicInfo.mobile}</span>
-                  </div>
-              </div>
-          </li>
-  `);
+        //#region Navigation Links (header & footer)
+        $.each(data.navigationLinks, (i, nl) => {
+            $(".navigational-links").append(`<li><a href="#${nl.section}">${nl.name}</a></li>`);
+        });
         //#endregion Contact
+
+        //#region Footer
+        $(".copyright-owner").append(`${data.basicInfo.copyrightOwner}`)
+        //#endregion Footer
     });
 })();
