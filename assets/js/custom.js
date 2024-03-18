@@ -77,24 +77,24 @@
         //#endregion Service
 
         //#region Portfolios
-        // $.each(data.portfolioHeadings, (i, ph) => {
-        //     $(`.filter-button-group`).append(`<button data-filter=".${ph.dataFilter}">${ph.name}</button>`);
-        // });
+        $.each(data.portfolioHeadings, (i, ph) => {
+            $(`.filter-button-group`).append(`<button data-filter=".${ph.dataFilter}">${ph.name}</button>`);
+        });
 
         $.each(data.portfolios, (i, p) => {
-            // $(`.portfolio-box-content`).append(`
-            //     <div class="col-3 portfolio-item ${p.class}">
-            //         <div class="image-box">
-            //             <img src="${p.imageUrl}" alt="${p.name} Portfolio Image">
-            //         </div>
-            //         <div class="content-box">
-            //             <h3 class="portfolio-title">${p.name}</h3>
-            //             <!-- <p>Cosmetic company logo design</p> -->
-            //             <i class="flaticon-up-right-arrow"></i>
-            //             <button data-mfp-src="#${p.dataMfpSrc}" class="portfolio-link modal-popup"></button>
-            //         </div>
-            //     </div>
-            // `);
+            $(`.portfolio-box-content`).append(`
+                <div class="col-3 portfolio-item ${p.class}">
+                    <div class="image-box">
+                        <img src="${p.imageUrl}" alt="${p.name} Portfolio Image">
+                    </div>
+                    <div class="content-box">
+                        <h3 class="portfolio-title">${p.name}</h3>
+                        <!-- <p>Cosmetic company logo design</p> -->
+                        <i class="flaticon-up-right-arrow"></i>
+                        <button data-mfp-src="#${p.dataMfpSrc}" class="portfolio-link modal-popup"></button>
+                    </div>
+                </div>
+            `);
 
             $(".portfolio-modal").append(`
                 <div id="${p.dataMfpSrc}" class="popup_content_area zoom-anim-dialog mfp-hide">
