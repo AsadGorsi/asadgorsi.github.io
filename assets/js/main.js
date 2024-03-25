@@ -151,6 +151,8 @@ Description: Gerold - Personal Portfolio HTML5 Template
 			$grid.isotope({ filter: filterValue });
 		});
 
+		$(".filter-button-group button:first").click();
+
 		/*------------------------------------------------------
   	/  Portfolio Gallery Carousel
   	/------------------------------------------------------*/
